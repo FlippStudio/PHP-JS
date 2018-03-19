@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zdarzenia regex</title>
+</head>
+<style>
+    fieldset{display: inline-block;}
+    #kolor{margin: 10px;}
+</style>
+<body>
+    <fieldset>
+        <legend>Walidacja formlurza</legend>
+    <form action="#">
+        <div id="komunikat"></div>
+        <input type="text" id="imie" placeholder="Imie" autofocus><br><br>
+        <input type="text" id="nazwisko" placeholder="nazwisko"><br><br>
+        <input type="text" id="login" placeholder="login"><br><br>
+        <input type="text" id="mail1" placeholder="mail1"><br><br>
+        <input type="text" id="mail2" placeholder="mail2" disabled><br><br>
+        <input type="password" id="pass1" placeholder="haslo"><br><br>
+        <input type="password" id="pass2" placeholder="Powtorz haslo"><div id="kolor"></div><br><br>
+        <input type="date" id="data" placeholder="data urodzenia"><br><br>
+        <input type="checkbox" id="regulamin">Akceptuje regulamin
+    </form>
+    <button id="przycisk" disabled>Wyślij</button>
+    <button id="popraw">Popraw</button>
+    </fieldset>
+    <script src="zdarzenia1.js"></script>
+</body>
+</html>

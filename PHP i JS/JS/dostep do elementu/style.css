@@ -1,0 +1,41 @@
+*
+{
+    font-size: 20px;
+}
+
+.czerwony
+{
+    background-color: #d4062f;
+    color: aliceblue;
+    width: 25%;
+    border: solid;
+    border-style: ridge;
+    border-color: #d9a0ab;
+    text-align: center;
+}
+
+.niebieski
+{
+    background-color: #5e7dff;
+    color: aliceblue;
+    width: 25%;
+    border: solid;
+    border-style: ridge;
+    border-color: #1f36ea;
+    text-align: center;
+}
+
+.grey
+{
+    background-color: #696969;
+    color: aliceblue;
+    width: 25%;
+    border: solid;
+    border-style: ridge;
+    border-color: #555558;
+    text-align: center; 
+}
+ul
+{
+    list-style-type: none;
+}
